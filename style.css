@@ -1,1 +1,116 @@
+body{
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-image: url("kutubxona.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+#home{
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.book-card{
+    width: 250px;
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    display: inline-block;
+}
+
+
+header{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    color: yellow;
+}
+
+button:hover{
+    background-color: green;
+}
+
+
+img{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+
+table{
+    width: 70%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th{
+    background-color: blue;
+    color: white;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 5px;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+
+@keyframes rang{
+    from{
+        background-color: lightblue;
+    }
+    to{
+        background-color: lightgreen;
+    }
+}
+
+.hero{
+    animation: rang 3s infinite alternate;
+}
+h2{
+    color: blue;
+}
+
+ol, ul{
+    color: white;
+}
+#about p{
+    color: white;
+}
+a{
+    color: white;
+}
