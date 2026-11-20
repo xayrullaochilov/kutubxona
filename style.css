@@ -1,116 +1,68 @@
 body{
-    background-color: white;
+    background-color:#f8f9fa;
     font-family: Arial, sans-serif;
 }
-body{
-    background-image: url("kutubxona.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
+.navbar-brand{
+    font-weight:bold;
+    font-size:22px;
 }
 
-#home{
-    background-color: lightblue;
-    text-align: center;
-    padding: 20px;
+.carousel img{
+    height:400px;
+    object-fit:cover;
 }
 
-.book-card{
-    width: 250px;
-    border: 2px solid blue;
-    padding: 10px;
-    margin: 10px;
-    background-color: white;
-    display: inline-block;
+section{
+    padding-top:30px;
+    padding-bottom:30px;
 }
 
-
-header{
-    background-color: navy;
-    color: white;
-    text-align: center;
-    padding: 15px;
+h1,h2{
+    margin-bottom:20px;
 }
 
-
-nav ul li{
-    display: inline;
-    margin: 10px;
+.card{
+    margin-bottom:20px;
+    transition:0.3s;
 }
 
-nav a{
-    color: white;
-    text-decoration: none;
+.card:hover{
+    transform:scale(1.03);
 }
 
-
-nav a:hover{
-    color: yellow;
+.table{
+    background-color:white;
 }
 
-button:hover{
-    background-color: green;
+.list-group{
+    margin-top:15px;
 }
 
-
-img{
-    border: 3px solid black;
-    border-radius: 10px;
+video{
+    width:100%;
+    border-radius:10px;
 }
 
-
-table{
-    width: 70%;
-    border-collapse: collapse;
-    background-color: white;
+form{
+    background-color:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
-th{
-    background-color: blue;
-    color: white;
+.btn{
+    margin-top:5px;
 }
 
-th, td{
-    border: 1px solid black;
-    padding: 10px;
+.dropdown{
+    margin-top:15px;
 }
 
-
-input, textarea{
-    width: 100%;
-    padding: 8px;
-    margin: 5px;
-}
-
-
-header{
-    position: sticky;
-    top: 0;
-}
-
-
-@keyframes rang{
-    from{
-        background-color: lightblue;
-    }
-    to{
-        background-color: lightgreen;
-    }
-}
-
-.hero{
-    animation: rang 3s infinite alternate;
-}
-h2{
-    color: blue;
-}
-
-ol, ul{
-    color: white;
-}
-#about p{
-    color: white;
-}
-a{
-    color: white;
+footer{
+    background-color:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
 }
